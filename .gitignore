@@ -1,0 +1,41 @@
+﻿# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset files
+data/
+*.csv
+*.csv.gz
+*.zip
+*.parquet
+
+# Keep Feast source data and registry
+
+# Trained model artifacts
+/models/
+*.pkl
+*.joblib
+*.keras
+
+# MLflow local tracking
+mlruns/
+mlflow.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated reports (preserve screenshots)
+reports/*
+!reports/screenshots/
+!reports/screenshots/**
+
+# Local environment and editor files
+.env
+.vscode/
+.idea/
+
+# Logs
+*.log
